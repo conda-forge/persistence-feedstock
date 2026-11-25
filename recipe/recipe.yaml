@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "5.5"
+  version: "5.6"
   test_modules:
     - Persistence.tests.test_ec
     - Persistence.tests.test_mapping
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/persistence/persistence-${{ version }}.tar.gz
-  sha256: 1d12146fd61d517f0d85cc3e832b83759dccb9671978d66336ae4c730fe65264
+  sha256: 5211c5319f6677741e4b573d7fe22d6fb0d308938d7216ce132dbd835064c69f
 
 build:
   number: 0
